@@ -12,11 +12,13 @@ body {
 
 ul {
   list-style: none;
+  display: inline;
 }
 
 .header-left{
-  margin: 25px 20px;
+  margin: auto 20px;
   padding: 0;
+
 }
 
 .header-left li {
