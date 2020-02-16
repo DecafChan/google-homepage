@@ -1,0 +1,37 @@
+html {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+/* It seems that webkit-appearance and moz-appearance is suggested to not be used? Looking into this later. */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-left{
+  margin: 25px 20px;
+  padding: 0;
+}
+
+.header-left li {
+  display: inline;
+  padding: 5px;
+}
+
+.header-right {
+  margin: 25px 20px;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+}
+
+.header-right li {
+  display: inline;
+  padding: 5px;
+}
